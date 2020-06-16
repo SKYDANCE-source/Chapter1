@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp"
+    tools:context=".NoteActivity">
+
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@drawable/bg_edit"
+        android:gravity="start|top"
+        android:padding="4dp"
+        android:textColor="#1e1e1e" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="priority"
+        android:textSize="25dp"
+        android:textColor="#F60154"
+        android:gravity="center"
+        android:padding="10dp"/>
+
+    <RadioGroup
+        android:id="@+id/RG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="5dp"
+        >
+        <RadioButton
+            android:id="@+id/RB1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="High     "
+            android:textSize="20sp"
+            android:textColor="#FF6600"
+            />
+        <RadioButton
+            android:id="@+id/RB2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Middle     "
+            android:textSize="20sp"
+            android:textColor="#FF6600" />
+        <RadioButton
+            android:id="@+id/RB3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Low"
+            android:textSize="20sp"
+            android:textColor="#FF6600"
+            android:checked="true" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/confirm" />
+
+</LinearLayout>

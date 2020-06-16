@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="PRIORITY">
+        <item>可延后处理</item>
+        <item>按计划处理</item>
+        <item>需立即处理</item>
+    </string-array>
+</resources>
